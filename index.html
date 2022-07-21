@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hitomi MATSUKI">
+    <meta name="keywords" content="HTML, CSS, Javescript">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>じゃんけんプログラム</title>
+</head>
+
+<body>
+    <header>
+        <h1>じゃんけんプログラム</h1>
+        <nav>
+            <li>ホーム</li>
+            <li>タグリファレンス</li>
+            <li>問い合わせ</li>
+        </nav>
+    </header>
+
+    <div>
+        <h2>じゃんけんほい</h2>
+
+        <p>好きな手を選んで、コンピューターとじゃんけんして遊んでみよう。勝ち負けが分かるよ。</p>
+
+        <button type="button" onclick="janken(0)">グー</button>
+        <button type="button" onclick="janken(1)">チョキ</button>
+        <button type="button" onclick="janken(2)">パー</button>
+
+    </div>
+
+    <div>
+        <p id="janken-result">結果</p>
+    </div>
+
+    <footer>
+        Copyright &copy; Hitomi MATSUKI, All Rights Reserved.
+    </footer>
+ 
+    <script src="./js/main.js"></script>
+</body>
+</html>
